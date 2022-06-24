@@ -11,6 +11,11 @@ const Home: NextPage = () => {
     <div className='flex flex-col justify-center items-center h-screen bg-gray-900 text-white'>
       <Suspense fallback={`Loading...`}>
         <CreateLinkForm />
+        <a
+          className='text-lg p-4 cursor-pointer text-orange-500 hover:underline'
+          href='https://github.com/zephyrus21/shorti'>
+          Link to code
+        </a>
       </Suspense>
     </div>
   );
